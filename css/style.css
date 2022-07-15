@@ -1,0 +1,43 @@
+body {
+    background-color: #532657;
+    line-height: 1.5em;
+}
+header {
+    /* background-color: #6E5370; */
+    margin-top:30px;
+    height: 3em;
+    text-align: center;
+    padding: 1em;
+    border: 15px #b7aad2;
+    border-style:dotted;
+    border-left: none;
+    border-right:none;
+    border-top: none;
+}
+
+header:hover {
+    border-color: rgb(239, 239, 168) ;
+}
+
+h1 {
+    margin:auto;
+    font-family: cursive;
+    font-size: 3rem;
+    color: #bfaddf;
+    font-weight:900;
+    accent-color: black;
+}
+
+h1:hover {
+    color: rgb(239, 239, 168) ;
+}
+
+main {
+
+    margin:3em;
+    
+}
+
+p {
+    color: #d8c3f7;
+}
