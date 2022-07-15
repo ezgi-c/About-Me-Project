@@ -10,6 +10,7 @@ I built a web page with a direct and powerful purpose. It does all of the things
 
 - [submission PR](https://gen.xyz/)
 - Any Links you used as reference
+- [Redirect a URL](https://www.geeksforgeeks.org/javascript-redirect-a-url/)
 
 ### Reflections and Comments
 

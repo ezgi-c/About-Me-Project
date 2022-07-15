@@ -1,43 +1,61 @@
 body {
+    background-image:url(/About-Me-Project/img/cosmos.jpeg);
     background-color: #532657;
     line-height: 1.5em;
-}
-header {
-    /* background-color: #6E5370; */
-    margin-top:30px;
-    height: 3em;
-    text-align: center;
-    padding: 1em;
-    border: 15px #b7aad2;
-    border-style:dotted;
-    border-left: none;
-    border-right:none;
-    border-top: none;
+    font-family:monospace;
+    margin-left:100px;
+    margin-right:100px;
+    
 }
 
-header:hover {
-    border-color: rgb(239, 239, 168) ;
+header {
+    margin-top:30px;
+    height: 3em;
+    padding: 1em;
+    background-color: #5b341d82;
+    margin-left:30px;
 }
 
 h1 {
-    margin:auto;
-    font-family: cursive;
+    margin-top:20px;
+    font-family:monospace;
     font-size: 3rem;
-    color: #bfaddf;
-    font-weight:900;
-    accent-color: black;
+    color: #449DD7;
+    font-weight:500;
 }
 
-h1:hover {
-    color: rgb(239, 239, 168) ;
+h2 {
+    float: right;
+    margin-right:10px
+    position: absolute;
+}
+
+a {
+    color:#449DD7;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#FFFFFE;
+    font-weight: 700;
 }
 
 main {
 
     margin:3em;
-    
 }
 
 p {
-    color: #d8c3f7;
+    color: #FFFFFE;
+    font-size:1em;
+    font-weight:10;
 }
+
+footer {
+        position: absolute;
+        bottom: 0;
+        width: 75%;
+        height: 2.5rem;   
+        text-align: center;
+        font-size: 1em;
+    }
