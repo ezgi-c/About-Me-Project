@@ -1,5 +1,5 @@
 body {
-    background-image:url(/img/cosmos.jpeg);
+    background-image:url('/img/cosmos.jpeg');
     line-height: 1.5em;
     font-family:monospace;    
 }
