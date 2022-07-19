@@ -8,7 +8,7 @@ let userName=prompt("Hi there! What's your name?");
 // console.log('The user\'s name is: ' + userName);
 alert('Welcome to my page, ' + userName + '!');
 
-let answer1=prompt('Do you know my name?');
+let answer1=prompt('Do you know my name? (y/n)');
 let ans1=answer1.toLowerCase();
 
 if(ans1==='yes' || ans1==='yea' || ans1==='yep' || ans1==='yeah' || ans1==='yup' || ans1==='y'){
@@ -59,7 +59,7 @@ if(ans4==='golden gardens' || ans4==='golden gardens beach' || ans4==='golden ga
   alert('No, but I like that one too!');
 }
 
-let answer5=prompt('Do you want to know more?');
+let answer5=prompt('Do you want to know more? (y/n)');
 let ans5=answer5.toLowerCase();
 
 if(ans5==='yes' || ans5==='yea' || ans5==='yep' || ans5==='yeah' || ans5==='yup' || ans5==='y'){
@@ -96,15 +96,16 @@ for (let i=0; i<4; i++) {
 }
 
 function question7(){
-  let favoriteThings = ['cats', 'beaches', 'sushi', 'swimming'];
+  let countries = ['united states', 'u.s.', 'us', 'u.s.a.', 'usa', 'england', 'u.k.', 'uk', 'united kingdom', 'turkey', 'turkiye'];
   for (let i = 0; i < 6; i++) {
-    let ans7 = prompt("Which of the following things do you think I like?: cats, cars, skiing, beaches, sushi, bacon, running, swimming, re-watching movies, beer");
+    let answer7 = prompt('I have lived in 3 countries. Can you guess one?');
     if(i>=5){
-      alert('sorry, you ran out of chances.');
+      alert('Sorry, you ran out of chances. I lived in England, Turkey, and United States.');
       return;
     }
-    for (let j=0; j<favoriteThings.length; j++){
-      if(ans7==favoriteThings[j]){
+    for (let j=0; j<countries.length; j++){
+      let ans7=answer7.toLowerCase();
+      if(ans7===countries[j]){
         score++;
         alert('correct!');
         return;

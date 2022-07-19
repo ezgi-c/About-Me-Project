@@ -53,8 +53,23 @@ p {
     font-weight:10;
 }
 
+ul {
+    list-style: outside;
+}
+
+ol {
+    list-style: decimal inside;
+}
 section {
     margin-bottom: 50px;
+}
+
+#education{
+    margin-left:75px
+}
+
+#goals{
+    margin-left:75px
 }
 
 span {
@@ -62,10 +77,12 @@ span {
     vertical-align: middle;
 }
 footer {
+        background-color: #5b341d82;
         position:static;
         bottom: 0;
         width: 100%;
         height: 2.5rem;   
         text-align: center;
         font-size: 1em;
+        padding-top:1em;
     }
