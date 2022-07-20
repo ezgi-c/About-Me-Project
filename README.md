@@ -4,6 +4,8 @@
 
 I built a web page with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the web page
 
+***update** @SophiaG20 helped as the driver and @Ezgi-C as the Navigator
+
 ### Author: Ezgi Coban
 
 ### Links and Resources
