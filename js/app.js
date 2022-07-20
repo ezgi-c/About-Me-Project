@@ -4,6 +4,15 @@
 
 let score = 0;
 
+function questionPrompt(answer,correct1, correct2){
+  let message = prompt( answer.toLowerCase());
+  if(message===correct1 || message===correct2){
+    alert("correct");
+    return;
+  } alert("incorrect");
+}
+questionPrompt("Do I have two cats?", "yes", "y");
+
 let userName=prompt("Hi there! What's your name?");
 // console.log('The user\'s name is: ' + userName);
 alert('Welcome to my page, ' + userName + '!');
