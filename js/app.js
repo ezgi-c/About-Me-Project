@@ -12,6 +12,12 @@ function questionPrompt(answer,correct1, correct2){
   } alert("incorrect");
 }
 questionPrompt("Do I have two cats?", "yes", "y");
+// first function done
+questionPrompt("Did I grow up in Seattle, WA?", "no", "n");
+//second function done
+questionPrompt("Is Green Lake my favorite beach?", "no", "n");
+//third function done
+
 
 let userName=prompt("Hi there! What's your name?");
 // console.log('The user\'s name is: ' + userName);
