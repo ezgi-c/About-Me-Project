@@ -23,8 +23,8 @@ if(ans1==='yes' || ans1==='yea' || ans1==='yep' || ans1==='yeah' || ans1==='yup'
   alert('That is not a valid answer.');
 }
 
-let answer2=prompt('How many cats do I have?');
-let ans2=answer2.toLowerCase();
+let ans2=prompt('How many cats do I have?').toLowerCase();
+
 
 if(ans2==2 || ans2=='two'){
   // console.log('correct answer');

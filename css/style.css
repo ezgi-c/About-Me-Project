@@ -1,12 +1,14 @@
 body {
+    width:1920px;
     background-image:url(../img/cosmos.jpeg);
+    background-repeat: no-repeat;
     line-height: 1.5em;
     font-family:monospace;    
 }
 
 header {
     height: 3em;
-    padding: 1.5em;
+    padding: 2em;
     background-color: #5b341d82;
     box-shadow: 0 5px 10px #fffffe44;
 }
@@ -23,6 +25,7 @@ h1 {
 
 nav {
     float: right;
+    margin-right: 2em
 }
 
 nav p {
@@ -41,6 +44,8 @@ a:hover {
 
 main {
     margin:4em;
+    padding-left: 4em;
+    padding-right: 4em;
 }
 h2 {
     color:#FFFFFE;
@@ -55,21 +60,19 @@ p {
 
 ul {
     list-style: outside;
+    color: #FFFFFE;
+    font-size:1em;
+    font-weight:10;
 }
 
 ol {
     list-style: decimal inside;
+    color: #FFFFFE;
+    font-size:1em;
+    font-weight:10;
 }
 section {
     margin-bottom: 50px;
-}
-
-#education{
-    margin-left:75px
-}
-
-#goals{
-    margin-left:75px
 }
 
 span {
