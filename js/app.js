@@ -7,7 +7,6 @@ let score = 0;
 let userName=prompt("Hi there! What's your name?");
 
 function greeting(){
-  // console.log('The user\'s name is: ' + userName);
   alert('Welcome to my page, ' + userName + '!');
 }
 greeting();
@@ -17,13 +16,10 @@ function questionName(){
   let ans1=prompt('Do you know my name? (y/n)').toLowerCase();
 
   if(ans1==='yes' || ans1==='yea' || ans1==='yep' || ans1==='yeah' || ans1==='yup' || ans1==='y'){
-  // console.log('The user knows my name.');
     alert('Awesome!');
   }else if(ans1==='no' || ans1 ==='nope' || ans1 ==='nah' || ans1==='n'){
-  // console.log('The user does not know my name.');
     alert('No worries! Continue, to find out!');
   }else{
-  // console.log('Invalid answer.');
     alert('That is not a valid answer.');
   }
 }
@@ -46,19 +42,15 @@ function eject(){
   let ans5=answer5.toLowerCase();
 
   if(ans5==='yes' || ans5==='yea' || ans5==='yep' || ans5==='yeah' || ans5==='yup' || ans5==='y'){
-  // console.log('user answered: yes');
     alert('Cool! Here you go!');
   }else if(ans5=='no' || ans5==='nope' || ans5==='nah' || ans5==='n'){
-  // console.log('user answered: no');
     alert('Ok bye!');
     window.location = 'https://canvas.instructure.com/courses/4898184/assignments/syllabus';
   }else{
-  // console.log('invalid answer');
     alert("I don't understand that answer.");
   }
 }
 eject();
-// guessing game:
 
 function guessNumber(){
 
