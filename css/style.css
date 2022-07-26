@@ -7,7 +7,7 @@ body {
 header {
     height: 2em;
     padding: 2em;
-    background:linear-gradient(90deg, rgba(253,45,0,1) 26%, rgba(223,0,124,1) 60%);
+    background:linear-gradient(90deg, rgba(253, 46, 0, 0.539) 26%, rgba(223, 0, 123, 0.521) 60%);
 }
 
 h1 {
@@ -15,28 +15,28 @@ h1 {
     margin-left: 1em;
     font-family: cursive;
     font-size: 4em;
-    color:white;
+    color:rgba(255, 255, 255, 0.742);
     text-shadow: rgba(223,0,124,1) .03em .03em .03em;
 }
 
 nav {
     
     font-size: 1em;
-    text-shadow: rgba(253,45,0,1) .03em .03em .03em;
     float: right;
     margin-right: 3em;
 }
 
 nav p {
-    color:white;
+    color:rgba(255, 255, 255, 0.766);
 }
 
 a {
-    color:white;
+    color:rgba(255, 255, 255, 0.696);
     text-decoration: none;
 }
 
 a:hover {
+    color: white;
     font-size:1.5em;
 }
 
@@ -47,7 +47,7 @@ main {
 }
 
 h2 {
-    color:white;
+    color:rgba(223, 0, 123, 0.521);
     font-size:1.5em;
     font-family: cursive;
     margin-bottom: .5em;
@@ -56,18 +56,22 @@ h2 {
 p {
     color: rgb(201, 193, 193);
     font-size:1em;
+    font-weight: lighter;
 }
 
 ul {
     list-style: inside;
     color: rgb(201, 193, 193);
     font-size:1em;
+    font-weight: lighter;
 }
 
 ol {
     list-style: decimal inside;
     color: rgb(201, 193, 193);
     font-size:1em;
+    font-weight: lighter;
+
 }
 
 section {
@@ -75,7 +79,7 @@ section {
 }
 
 footer {
-    background:linear-gradient(90deg, rgba(253,45,0,1) 26%, rgba(223,0,124,1) 60%);
+    background:linear-gradient(90deg, rgba(253, 46, 0, 0.539) 26%, rgba(223, 0, 123, 0.521) 60%);
     bottom: 0;
     height: 2.5em;   
     text-align: center;
@@ -84,6 +88,5 @@ footer {
 }
 
 footer p {
-    color:white;
-    text-shadow: rgba(253,45,0,1) .03em .03em .03em;
+    color:rgba(255, 255, 255, 0.696);
 }
