@@ -9,7 +9,6 @@ let userName=prompt("Hi there! What's your name?");
 function greeting(){
   alert('Welcome to my page, ' + userName + '!');
 }
-greeting();
 
 function questionName(){
 
@@ -23,7 +22,6 @@ function questionName(){
     alert('That is not a valid answer.');
   }
 }
-questionName();
 
 function questionPrompt(question, correct1, correct2, correct3){
   let answer = prompt(question).toLowerCase();
@@ -33,9 +31,6 @@ function questionPrompt(question, correct1, correct2, correct3){
     return;
   } alert("Incorrect.");
 }
-questionPrompt("How many cats do I have?", "two", "2", "meow meow");
-questionPrompt("Where did I grow up?", "istanbul", "turkey", "istanbul, turkey");
-questionPrompt("Guess my favorite beach in Seattle", "golden gardens", "golden gardens beach", "golden gardens park");
 
 function eject(){
   let answer5=prompt('Do you want to know more? (y/n)');
@@ -50,7 +45,6 @@ function eject(){
     alert("I don't understand that answer.");
   }
 }
-eject();
 
 function guessNumber(){
 
@@ -72,7 +66,6 @@ function guessNumber(){
     }
   }
 }
-guessNumber();
 
 function question7(){
   let countries = ['united states', 'u.s.', 'us', 'u.s.a.', 'usa', 'england', 'u.k.', 'uk', 'united kingdom', 'turkey', 'turkiye'];
@@ -93,6 +86,13 @@ function question7(){
     alert('incorrect. try again.');
   }
 }
-question7();
 
+greeting();
+questionName();
+questionPrompt("How many cats do I have?", "two", "2", "meow meow");
+questionPrompt("Where did I grow up?", "istanbul", "turkey", "istanbul, turkey");
+questionPrompt("Guess my favorite beach in Seattle", "golden gardens", "golden gardens beach", "golden gardens park");
+eject();
+guessNumber();
+question7();
 alert('you answered ' + score + ' questions correctly!');
